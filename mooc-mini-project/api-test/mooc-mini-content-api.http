@@ -1,0 +1,58 @@
+### 课程查询接口
+#POST {{content_host}}/content/course/list?pageNo=1&pageSize=3
+POST {{gateway_host}}/content/course/list?pageNo=1&pageSize=3
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+
+### 课程分类接口
+#GET {{content_host}}/content/course-category/tree-nodes
+GET {{gateway_host}}/content/course-category/tree-nodes
+
+
+### 新增课程接口
+#POST {{content_host}}/content/course
+POST {{gateway_host}}/content/course
+Content-Type: application/json
+
+{
+  "charge": "201001",
+  "price": -100,
+  "originalPrice": -100,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程888",
+  "pic": "pic",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "tags",
+  "grade": "204001",
+  "description": "测试课程888"
+}
+
+
+### 根据课程 id 查询课程详细信息
+#GET {{content_host}}/content/course/40
+GET {{gateway_host}}/content/course/40
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsibW9vYy1taW5pIl0sInVzZXJfbmFtZSI6IntcImNvbXBhbnlJZFwiOlwiMTIzMjE0MTQyNVwiLFwiY3JlYXRlVGltZVwiOlwiMjAyMi0wOS0yOFQwODozMjowM1wiLFwiaWRcIjpcIjUyXCIsXCJuYW1lXCI6XCJN6ICB5biIXCIsXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiXCIsXCJ1c2VybmFtZVwiOlwidDFcIixcInV0eXBlXCI6XCIxMDEwMDJcIn0iLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNjgyNTg4NzQwLCJhdXRob3JpdGllcyI6WyJ0ZXN0Il0sImp0aSI6IjhiOTQ0YTdlLTY2NWYtNDYyNC1hNzY0LThlOTNlYmI3NzcyOCIsImNsaWVudF9pZCI6Ik1vb2NtaW5pV2ViQXBwIn0.HISgIvD6BVmyh_D4VnIAm2S87rx3a6C5Yd4fmyHd1Uk
+
+
+### 根据课程 id 查询课程计划信息
+#GET {{content_host}}/content/teachplan/117/tree-nodes
+GET {{gateway_host}}/content/teachplan/117/tree-nodes
+Content-Type: application/json
+
+
+### 查询课程发布信息
+GET {{content_host}}/content/r/coursepublish/2
+Content-Type: application/json

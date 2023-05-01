@@ -1,0 +1,26 @@
+### 查询所有数据字典内容接口
+#GET {{system_host}}/system/dictionary/all
+GET {{gateway_host}}/system/dictionary/all
+Content-Type: application/json
+
+[
+  {
+    "code": "",
+    "id": 0,
+    "itemValues": "",
+    "name": ""
+  }
+]
+
+
+### 根据 code 查询所有数据字典内容接口
+#GET {{system_host}}/system/dictionary/code/001
+GET {{gateway_host}}/system/dictionary/code/001
+Content-Type: application/json
+
+{
+  "code": "001",
+  "id": 0,
+  "itemValues": "",
+  "name": ""
+}

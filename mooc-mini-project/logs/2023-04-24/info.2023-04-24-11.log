@@ -1,0 +1,4 @@
+2023-04-25 18:12:20,983 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-04-25 18:12:20,983 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-04-25 18:12:21,006 DEBUG [main][SpringApplication.java:679] - Loading source class com.checo.moocmini.gateway.GatewayApplication,class org.springframework.cloud.bootstrap.BootstrapApplicationListener$BootstrapMarkerConfiguration
+2023-04-25 18:12:21,006 DEBUG [main][SpringApplication.java:679] - Loading source class com.checo.moocmini.gateway.GatewayApplication,class org.springframework.cloud.bootstrap.BootstrapApplicationListener$BootstrapMarkerConfiguration

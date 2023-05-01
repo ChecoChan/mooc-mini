@@ -1,0 +1,12 @@
+2023-04-23 03:25:18,066 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-04-23 03:25:18,066 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-04-23 03:25:18,082 DEBUG [main][SpringApplication.java:679] - Loading source class com.checo.moocmini.content.ContentApplication,class org.springframework.cloud.bootstrap.BootstrapApplicationListener$BootstrapMarkerConfiguration
+2023-04-23 03:25:18,082 DEBUG [main][SpringApplication.java:679] - Loading source class com.checo.moocmini.content.ContentApplication,class org.springframework.cloud.bootstrap.BootstrapApplicationListener$BootstrapMarkerConfiguration
+2023-04-23 03:25:18,083 DEBUG [main][DeferredLog.java:222] - Activated activeProfiles dev
+2023-04-23 03:25:18,083 DEBUG [main][DeferredLog.java:222] - Activated activeProfiles dev
+2023-04-23 03:25:18,084 DEBUG [main][AbstractApplicationContext.java:596] - Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@2f7dcef2
+2023-04-23 03:25:18,084 DEBUG [main][AbstractApplicationContext.java:596] - Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@2f7dcef2
+2023-04-23 03:25:18,087 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-04-23 03:25:18,087 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-04-23 03:25:18,088 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2023-04-23 03:25:18,088 DEBUG [main][DefaultSingletonBeanRegistry.java:225] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'

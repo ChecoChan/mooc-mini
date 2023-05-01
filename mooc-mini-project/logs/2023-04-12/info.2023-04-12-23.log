@@ -1,0 +1,396 @@
+2023-04-13 00:00:07,226 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2023-04-13 00:00:07,226 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2023-04-13 00:00:07,241 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to com.checo.moocmini.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-04-13 00:00:07,241 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to com.checo.moocmini.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-04-13 00:00:07,283 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2023-04-13 00:00:07,283 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2023-04-13 00:00:07,299 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:07,299 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:07,299 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ed27e18] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:07,299 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ed27e18] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:07,355 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:07,355 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:07,355 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@775763910 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:07,355 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@775763910 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:07,356 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base
+2023-04-13 00:00:07,356 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base
+2023-04-13 00:00:07,356 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-04-13 00:00:07,356 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-04-13 00:00:07,359 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:07,359 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:07,362 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2023-04-13 00:00:07,362 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2023-04-13 00:00:07,364 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2023-04-13 00:00:07,364 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2023-04-13 00:00:07,368 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 10
+2023-04-13 00:00:07,368 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 10
+2023-04-13 00:00:07,368 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ed27e18]
+2023-04-13 00:00:07,368 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ed27e18]
+2023-04-13 00:00:07,370 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-13 00:00:07,370 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-13 00:00:07,371 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-04-13 00:00:07,371 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2023-04-13 00:00:07,376 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
+2023-04-13 00:00:07,376 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
+2023-04-13 00:00:08,700 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - GET "/content/course-category/tree-nodes", parameters={}
+2023-04-13 00:00:08,700 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - GET "/content/course-category/tree-nodes", parameters={}
+2023-04-13 00:00:08,701 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to com.checo.moocmini.content.api.CourseCategoryController#queryCourseCategoryTreeNodes()
+2023-04-13 00:00:08,701 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to com.checo.moocmini.content.api.CourseCategoryController#queryCourseCategoryTreeNodes()
+2023-04-13 00:00:08,702 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:08,702 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:08,702 DEBUG [http-nio-63040-exec-4][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53f90d71] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:08,702 DEBUG [http-nio-63040-exec-4][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53f90d71] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:08,703 DEBUG [http-nio-63040-exec-4][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:08,703 DEBUG [http-nio-63040-exec-4][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:08,705 DEBUG [http-nio-63040-exec-4][Logger.java:49] - JDBC Connection [HikariProxyConnection@1564408190 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:08,705 DEBUG [http-nio-63040-exec-4][Logger.java:49] - JDBC Connection [HikariProxyConnection@1564408190 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:08,706 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: with recursive vitual_table as (select course_category.* from course_category where id = ? union all select course_category.* from course_category left join vitual_table on vitual_table.id = course_category.parentid) select * from vitual_table order by vitual_table.id
+2023-04-13 00:00:08,706 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: with recursive vitual_table as (select course_category.* from course_category where id = ? union all select course_category.* from course_category left join vitual_table on vitual_table.id = course_category.parentid) select * from vitual_table order by vitual_table.id
+2023-04-13 00:00:08,706 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-04-13 00:00:08,706 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-04-13 00:00:08,711 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53f90d71]
+2023-04-13 00:00:08,711 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53f90d71]
+2023-04-13 00:00:08,712 DEBUG [http-nio-63040-exec-4][SQLErrorCodeSQLExceptionTranslator.java:289] - Unable to translate SQLException with Error code '3576', will now try the fallback translator
+2023-04-13 00:00:08,712 DEBUG [http-nio-63040-exec-4][SQLErrorCodeSQLExceptionTranslator.java:289] - Unable to translate SQLException with Error code '3576', will now try the fallback translator
+2023-04-13 00:00:08,712 DEBUG [http-nio-63040-exec-4][SQLStateSQLExceptionTranslator.java:98] - Extracted SQL state class 'HY' from value 'HY000'
+2023-04-13 00:00:08,712 DEBUG [http-nio-63040-exec-4][SQLStateSQLExceptionTranslator.java:98] - Extracted SQL state class 'HY' from value 'HY000'
+2023-04-13 00:00:08,712 DEBUG [http-nio-63040-exec-4][ExceptionHandlerExceptionResolver.java:398] - Using @ExceptionHandler com.checo.moocmini.base.exception.GlobalExceptionHandler#customException(Exception)
+2023-04-13 00:00:08,712 DEBUG [http-nio-63040-exec-4][ExceptionHandlerExceptionResolver.java:398] - Using @ExceptionHandler com.checo.moocmini.base.exception.GlobalExceptionHandler#customException(Exception)
+2023-04-13 00:00:08,713 ERROR [http-nio-63040-exec-4][GlobalExceptionHandler.java:48] - 系统异常：
+### Error querying database.  Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+### The error may exist in com/checo/moocmini/content/mapper/CourseCategoryMapper.xml
+### The error may involve com.checo.moocmini.content.mapper.CourseCategoryMapper.selectTreeNodes-Inline
+### The error occurred while setting parameters
+### SQL: with recursive vitual_table as (select course_category.*                                         from course_category                                         where id = ?                                         union all                                         select course_category.*                                         from course_category                                                  left join vitual_table on vitual_table.id = course_category.parentid)         select *         from vitual_table         order by vitual_table.id
+### Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+; uncategorized SQLException; SQL state [HY000]; error code [3576]; In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints; nested exception is java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error querying database.  Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+### The error may exist in com/checo/moocmini/content/mapper/CourseCategoryMapper.xml
+### The error may involve com.checo.moocmini.content.mapper.CourseCategoryMapper.selectTreeNodes-Inline
+### The error occurred while setting parameters
+### SQL: with recursive vitual_table as (select course_category.*                                         from course_category                                         where id = ?                                         union all                                         select course_category.*                                         from course_category                                                  left join vitual_table on vitual_table.id = course_category.parentid)         select *         from vitual_table         order by vitual_table.id
+### Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+; uncategorized SQLException; SQL state [HY000]; error code [3576]; In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints; nested exception is java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy89.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy95.selectTreeNodes(Unknown Source)
+	at com.checo.moocmini.content.service.impl.CourseCategoryServiceImpl.queryTreeNodes(CourseCategoryServiceImpl.java:23)
+	at com.checo.moocmini.content.service.impl.CourseCategoryServiceImpl$$FastClassBySpringCGLIB$$22797eae.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.checo.moocmini.content.service.impl.CourseCategoryServiceImpl$$EnhancerBySpringCGLIB$$441cf8e8.queryTreeNodes(<generated>)
+	at com.checo.moocmini.content.api.CourseCategoryController.queryCourseCategoryTreeNodes(CourseCategoryController.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy135.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy133.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy132.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 more
+2023-04-13 00:00:08,716 DEBUG [http-nio-63040-exec-4][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-13 00:00:08,716 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [com.checo.moocmini.base.exception.RestErrorResponse@70af731]
+2023-04-13 00:00:08,717 DEBUG [http-nio-63040-exec-4][AbstractHandlerExceptionResolver.java:145] - Resolved [org.springframework.jdbc.UncategorizedSQLException: 
+### Error querying database.  Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+### The error may exist in com/checo/moocmini/content/mapper/CourseCategoryMapper.xml
+### The error may involve com.checo.moocmini.content.mapper.CourseCategoryMapper.selectTreeNodes-Inline
+### The error occurred while setting parameters
+### SQL: with recursive vitual_table as (select course_category.*                                         from course_category                                         where id = ?                                         union all                                         select course_category.*                                         from course_category                                                  left join vitual_table on vitual_table.id = course_category.parentid)         select *         from vitual_table         order by vitual_table.id
+### Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+; uncategorized SQLException; SQL state [HY000]; error code [3576]; In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints; nested exception is java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints]
+2023-04-13 00:00:08,717 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 500 INTERNAL_SERVER_ERROR
+2023-04-13 00:00:08,713 ERROR [http-nio-63040-exec-4][GlobalExceptionHandler.java:48] - 系统异常：
+### Error querying database.  Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+### The error may exist in com/checo/moocmini/content/mapper/CourseCategoryMapper.xml
+### The error may involve com.checo.moocmini.content.mapper.CourseCategoryMapper.selectTreeNodes-Inline
+### The error occurred while setting parameters
+### SQL: with recursive vitual_table as (select course_category.*                                         from course_category                                         where id = ?                                         union all                                         select course_category.*                                         from course_category                                                  left join vitual_table on vitual_table.id = course_category.parentid)         select *         from vitual_table         order by vitual_table.id
+### Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+; uncategorized SQLException; SQL state [HY000]; error code [3576]; In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints; nested exception is java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+org.springframework.jdbc.UncategorizedSQLException: 
+### Error querying database.  Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+### The error may exist in com/checo/moocmini/content/mapper/CourseCategoryMapper.xml
+### The error may involve com.checo.moocmini.content.mapper.CourseCategoryMapper.selectTreeNodes-Inline
+### The error occurred while setting parameters
+### SQL: with recursive vitual_table as (select course_category.*                                         from course_category                                         where id = ?                                         union all                                         select course_category.*                                         from course_category                                                  left join vitual_table on vitual_table.id = course_category.parentid)         select *         from vitual_table         order by vitual_table.id
+### Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+; uncategorized SQLException; SQL state [HY000]; error code [3576]; In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints; nested exception is java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy89.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy95.selectTreeNodes(Unknown Source)
+	at com.checo.moocmini.content.service.impl.CourseCategoryServiceImpl.queryTreeNodes(CourseCategoryServiceImpl.java:23)
+	at com.checo.moocmini.content.service.impl.CourseCategoryServiceImpl$$FastClassBySpringCGLIB$$22797eae.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.checo.moocmini.content.service.impl.CourseCategoryServiceImpl$$EnhancerBySpringCGLIB$$441cf8e8.queryTreeNodes(<generated>)
+	at com.checo.moocmini.content.api.CourseCategoryController.queryCourseCategoryTreeNodes(CourseCategoryController.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy135.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy133.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy132.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 more
+2023-04-13 00:00:08,716 DEBUG [http-nio-63040-exec-4][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-13 00:00:08,716 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [com.checo.moocmini.base.exception.RestErrorResponse@70af731]
+2023-04-13 00:00:08,717 DEBUG [http-nio-63040-exec-4][AbstractHandlerExceptionResolver.java:145] - Resolved [org.springframework.jdbc.UncategorizedSQLException: 
+### Error querying database.  Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+### The error may exist in com/checo/moocmini/content/mapper/CourseCategoryMapper.xml
+### The error may involve com.checo.moocmini.content.mapper.CourseCategoryMapper.selectTreeNodes-Inline
+### The error occurred while setting parameters
+### SQL: with recursive vitual_table as (select course_category.*                                         from course_category                                         where id = ?                                         union all                                         select course_category.*                                         from course_category                                                  left join vitual_table on vitual_table.id = course_category.parentid)         select *         from vitual_table         order by vitual_table.id
+### Cause: java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints
+; uncategorized SQLException; SQL state [HY000]; error code [3576]; In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints; nested exception is java.sql.SQLException: In recursive query block of Recursive Common Table Expression 'vitual_table', the recursive table must neither be in the right argument of a LEFT JOIN, nor be forced to be non-first with join order hints]
+2023-04-13 00:00:08,717 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 500 INTERNAL_SERVER_ERROR
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/course/1", parameters={}
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/course/1", parameters={}
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to com.checo.moocmini.content.api.CourseBaseInfoController#getCourseById(Long)
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to com.checo.moocmini.content.api.CourseBaseInfoController#getCourseById(Long)
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c13e7e] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c13e7e] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:09,002 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:09,003 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@168214678 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:09,003 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@168214678 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:09,003 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-04-13 00:00:09,003 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-04-13 00:00:09,003 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-04-13 00:00:09,003 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-04-13 00:00:09,005 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:09,005 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:09,005 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c13e7e]
+2023-04-13 00:00:09,005 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c13e7e]
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b3bcaad] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b3bcaad] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@1174679418 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@1174679418 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-13 00:00:09,006 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-04-13 00:00:09,007 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-04-13 00:00:09,007 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-04-13 00:00:09,008 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:09,008 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:09,008 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b3bcaad]
+2023-04-13 00:00:09,008 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b3bcaad]
+2023-04-13 00:00:09,011 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:09,011 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:09,011 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b1435e2] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:09,011 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b1435e2] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:09,012 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:09,012 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:09,012 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@1284288517 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:09,012 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@1284288517 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:09,012 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-13 00:00:09,012 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-13 00:00:09,012 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-04-13 00:00:09,012 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-04-13 00:00:09,014 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:09,014 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b1435e2]
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b1435e2]
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@256bf025] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@256bf025] was not registered for synchronization because synchronization is not active
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@794454607 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:09,015 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@794454607 wrapping com.mysql.cj.jdbc.ConnectionImpl@21a07a99] will not be managed by Spring
+2023-04-13 00:00:09,016 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-13 00:00:09,016 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-04-13 00:00:09,016 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1-3-2(String)
+2023-04-13 00:00:09,016 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1-3-2(String)
+2023-04-13 00:00:09,017 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:09,017 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-04-13 00:00:09,017 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@256bf025]
+2023-04-13 00:00:09,017 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@256bf025]
+2023-04-13 00:00:09,018 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-13 00:00:09,018 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-13 00:00:09,018 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [CourseBaseInfoDto(charge=201001, price=5.0, originalPrice=100.0, qq=1, wechat=1, phone=1, validDays= (truncated)...]
+2023-04-13 00:00:09,018 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [CourseBaseInfoDto(charge=201001, price=5.0, originalPrice=100.0, qq=1, wechat=1, phone=1, validDays= (truncated)...]
+2023-04-13 00:00:09,019 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
+2023-04-13 00:00:09,019 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK

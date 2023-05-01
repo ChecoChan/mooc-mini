@@ -1,0 +1,324 @@
+2023-04-30 05:02:15,720 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:02:40,043 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:04:45,542 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:05:06,037 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:05:38,663 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:05:53,683 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiCourseTablesMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiCourseTablesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiCourseTablesMapper' in your configuration.
+
+2023-04-30 05:07:27,996 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiCourseTablesMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiCourseTablesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiCourseTablesMapper' in your configuration.
+
+2023-04-30 05:07:47,645 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:08:27,897 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field chooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:08:46,429 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:14:23,562 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:31:13,190 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:35:48,212 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:37:54,849 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field xcChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.XcChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.XcChooseCourseMapper' in your configuration.
+
+2023-04-30 05:43:21,292 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:45:59,981 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:55:10,227 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+
+2023-04-30 05:59:03,520 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moocminiChooseCourseMapper in com.checo.moocmini.learning.service.impl.MyCourseTablesServiceImpl required a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.checo.moocmini.learning.mapper.MoocminiChooseCourseMapper' in your configuration.
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for mooc-mini-parent" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../Maven/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+        </processorPath>
+        <module name="mooc-mini-message-sdk" />
+        <module name="mooc-mini-content-model" />
+        <module name="mooc-mini-system-model" />
+        <module name="mooc-mini-search" />
+        <module name="mooc-mini-system-api" />
+        <module name="mooc-mini-orders-model" />
+        <module name="mooc-mini-auth" />
+        <module name="mooc-mini-gateway" />
+        <module name="mooc-mini-learning-model" />
+        <module name="mooc-mini-content-api" />
+        <module name="mooc-mini-learning-service" />
+        <module name="mooc-mini-learning-api" />
+        <module name="mooc-mini-media-service" />
+        <module name="mooc-mini-system-service" />
+        <module name="mooc-mini-base" />
+        <module name="mooc-mini-content-service" />
+        <module name="mooc-mini-checkcode" />
+        <module name="mooc-mini-media-api" />
+        <module name="mooc-mini-media-model" />
+        <module name="mooc-mini-orders-service" />
+        <module name="mooc-mini-orders-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mooc-mini-generator" target="1.8" />
+      <module name="mooc-mini-order" target="1.8" />
+      <module name="mooc-mini-order-api" target="1.8" />
+      <module name="mooc-mini-order-model" target="1.8" />
+      <module name="mooc-mini-order-service" target="1.8" />
+      <module name="xuecheng-plus-auth" target="1.8" />
+      <module name="xuecheng-plus-checkcode" target="1.8" />
+      <module name="xuecheng-plus-learning" target="1.8" />
+      <module name="xuecheng-plus-learning-model" target="1.8" />
+      <module name="xuecheng-plus-learning-service" target="1.8" />
+      <module name="xuecheng-plus-message-sdk" target="1.8" />
+      <module name="xuecheng-plus-orders" target="1.8" />
+      <module name="xuecheng-plus-orders-model" target="1.8" />
+      <module name="xuecheng-plus-orders-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

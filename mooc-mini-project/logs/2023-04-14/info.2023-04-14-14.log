@@ -1,0 +1,30 @@
+2023-04-14 15:12:08,214 WARN [Thread-31][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-04-14 15:12:08,214 WARN [Thread-25][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-04-14 15:12:08,214 WARN [Thread-25][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-04-14 15:12:08,215 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@435871cb, started on Fri Apr 14 14:54:49 CST 2023, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@563e4951
+2023-04-14 15:12:08,214 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@435871cb, started on Fri Apr 14 14:54:49 CST 2023, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@563e4951
+2023-04-14 15:12:08,214 WARN [Thread-31][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-04-14 15:12:08,226 WARN [Thread-31][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-04-14 15:12:08,226 WARN [Thread-31][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-04-14 15:12:08,226 WARN [Thread-25][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-04-14 15:12:08,226 WARN [Thread-25][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-04-14 15:12:08,227 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2023-04-14 15:12:08,227 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2023-04-14 15:12:08,227 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2023-04-14 15:12:08,227 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2023-04-14 15:12:08,228 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2023-04-14 15:12:08,228 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2023-04-14 15:12:08,229 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2023-04-14 15:12:08,229 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2023-04-14 15:12:08,458 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2023-04-14 15:12:08,458 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2023-04-14 15:12:08,459 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 0
+2023-04-14 15:12:08,459 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 0
+2023-04-14 15:12:08,459 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-04-14 15:12:08,459 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-04-14 15:12:08,459 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'nacosWatch' completed its stop procedure
+2023-04-14 15:12:08,459 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'nacosWatch' completed its stop procedure
+2023-04-14 15:12:08,460 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-04-14 15:12:08,460 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-04-14 15:12:08,470 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-04-14 15:12:08,470 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.

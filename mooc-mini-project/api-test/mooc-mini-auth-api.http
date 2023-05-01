@@ -1,0 +1,20 @@
+### 授权码模式
+### 第一步申请授权码(浏览器请求)/oauth/authorize?client_id=c1&response_type=code&scope=all&redirect_uri=http://www.mooc-mini.cn
+### 第二步申请令牌
+POST {{auth_host}}/auth/oauth/token?client_id=MoocminiWebApp&client_secret=MoocminiWebApp&grant_type=authorization_code&code=bsVPT2&redirect_uri=http://www.mooc-mini.cn
+
+
+### 明文密码模式
+POST {{auth_host}}/auth/oauth/token?client_id=MoocminiWebApp&client_secret=MoocminiWebApp&grant_type=password&username=zhangsan&password=123
+
+
+### 密文密码模式
+POST {{auth_host}}/auth/oauth/token?client_id=MoocminiWebApp&client_secret=MoocminiWebApp&grant_type=password&username=t1&password=111111
+
+
+###校验 JWT 令牌
+POST {{auth_host}}/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsibW9vYy1taW5pIl0sInVzZXJfbmFtZSI6IntcImNvbXBhbnlJZFwiOlwiMTIzMjE0MTQyNVwiLFwiY3JlYXRlVGltZVwiOlwiMjAyMi0wOS0yOFQwODozMjowM1wiLFwiaWRcIjpcIjUyXCIsXCJuYW1lXCI6XCLpmYjogIHluIhcIixcInBlcm1pc3Npb25zXCI6W10sXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiXCIsXCJ1c2VybmFtZVwiOlwidDFcIixcInV0eXBlXCI6XCIxMDEwMDJcIn0iLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNjgyNzYyOTA1LCJhdXRob3JpdGllcyI6WyJtb29jbWluaV90ZWFjaG1hbmFnZXJfY291cnNlX2Jhc2UiLCJtb29jbWluaV90ZWFjaG1hbmFnZXJfY291cnNlX2FkZCIsIm1vb2NtaW5pX3RlYWNobWFuYWdlcl9jb3Vyc2UiLCJtb29jbWluaV90ZWFjaG1hbmFnZXJfY291cnNlX21hcmtldCIsIm1vb2NtaW5pX3RlYWNobWFuYWdlcl9jb3Vyc2VfcHVibGlzaCIsIm1vb2NtaW5pX3RlYWNobWFuYWdlcl9jb3Vyc2VfbGlzdCIsIm1vb2NtaW5pX3RlYWNobWFuYWdlcl9jb3Vyc2VfZGVsIiwibW9vY21pbmlfdGVhY2htYW5hZ2VyX2NvdXJzZV9wbGFuIiwibW9vY21pbmlfdGVhY2htYW5hZ2VyIl0sImp0aSI6ImFkNjI0NzMyLTM4ZWItNDNkOS05MzVlLTI2ODE3N2ZmNmFkNyIsImNsaWVudF9pZCI6Ik1vb2NtaW5pV2ViQXBwIn0.CKEHoPVNiWY0wGgSJt7tAPplSkhM1xTINjfkz-XjmYQ
+
+
+###密码模式 - 扩展认证请求参数后
+POST {{auth_host}}/auth/oauth/token?client_id=MoocminiWebApp&client_secret=MoocminiWebApp&grant_type=password&username={"username":"t1","authType":"password","password":"111111"}
