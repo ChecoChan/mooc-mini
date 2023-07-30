@@ -26,6 +26,9 @@ target/
 /.nb-gradle/
 build/
 logs/
+/mooc-mini-project/mooc-mini-content/mooc-mini-content-service/logs/
+/mooc-mini-project/mooc-mini-learning/mooc-mini-learning-service/logs/
+/mooc-mini-project/mooc-mini-search/logs/
 
 ### VS Code ###
 .vscode/
