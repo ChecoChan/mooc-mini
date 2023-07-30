@@ -25,7 +25,7 @@ public class DictionaryController  {
         return dictionaryService.queryAll();
     }
 
-    @ApiOperation("根据 Code 插叙字典分类")
+    @ApiOperation("根据 Code 查询字典分类")
     @GetMapping("/dictionary/code/{code}")
     public Dictionary getByCode(@PathVariable String code) {
         return dictionaryService.getByCode(code);
