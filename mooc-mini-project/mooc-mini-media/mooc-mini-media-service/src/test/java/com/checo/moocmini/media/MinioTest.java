@@ -46,7 +46,7 @@ public class MinioTest {
         if (extensionMatch != null)
             mimeType = extensionMatch.getMimeType();
 
-        // Upload '/home/user/Photos/asiaphotos.zip' as object name 'test.mp4' to bucket
+        // Upload 'C:/IT/TestGarbage/test.mp4' as object name 'test.mp4' to bucket
         UploadObjectArgs uploadObjectArgs = UploadObjectArgs.builder()
                 .bucket("testbucket")
                 .filename("C:/IT/TestGarbage/test.mp4")
@@ -69,7 +69,7 @@ public class MinioTest {
         // 校验文件 MD5
         String sourceMd5 = DigestUtils.md5Hex(Files.newInputStream(Paths.get("C:/IT/TestGarbage/test.mp4")));
         String getFileMd5 = DigestUtils.md5Hex(Files.newInputStream(Paths.get("C:/IT/TestGarbage/testCopy.mp4")));
-        if (sourceMd5 == getFileMd5) {
+        if (sourceMd5.equals(getFileMd5)) {
             System.out.println("下载成功");
         } else {
             File file = new File("C:/IT/TestGarbage/testCopy.mp4");
